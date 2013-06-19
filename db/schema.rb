@@ -21,14 +21,4 @@ ActiveRecord::Schema.define(:version => 20130618205519) do
     t.datetime "updated_at",  :null => false
   end
 
-  create_table "isebundles", :force => true do |t|
-    t.string   "exec"
-    t.string   "rails"
-    t.string   "generate"
-    t.string   "scaffold"
-    t.string   "ise"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
 end
