@@ -12,7 +12,8 @@
 
 <p>
   <b>Picture:</b>
-  <%= @idea.picture %>
+  </br>
+  <%= image_tag(@idea.picture_url) if @idea.picture.present? %>
 </p>
 
 
